@@ -7,20 +7,21 @@
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>The Survey Form</title>
   </head>
   <body>
     <div class="container">
-      <h1 id="title">The Survey Form</h1>
+      <h1 id="title" class="text-center text-white">The Survey Form</h1>
       <p id="description">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius deserunt
         consequatur qui. Minima quibusdam, incidunt laboriosam quae fugit et ad
         nostrum labore fuga officiis deserunt, ullam, quia voluptate omnis
         expedita.
       </p>
-      <form action="" id="surver-form" class="form">
+      <form action="" id="survey-form" class="form">
         <div class="form-group">
-          <label for="name" id="name-lable" class="lable"></label>
+          <label for="name" id="name-label" class="lable">Name</label>
           <input
             type="text"
             name="name"
@@ -31,7 +32,7 @@
           />
         </div>
         <div class="form-group">
-          <label for="name" id="email-lable" class="lable"></label>
+          <label for="name" id="email-label" class="lable">Email</label>
           <input
             type="email"
             name="email"
@@ -39,7 +40,7 @@
             required
             placeholder="Enter Your email"
           />
-          <label for="name" id="number-lable" class="lable"></label>
+          <label for="name" id="number-label" class="lable">Number</label>
           <input
             type="number"
             name="number"
@@ -57,7 +58,7 @@
             <option value="option3">Option 3</option>
           </select>
         </div>
-        <div class="form-group">
+        <div class="form-group d-flex mb-5">
           <label for="radio" class="lable" id="radio-lable">Radio 1</label>
           <input
             type="radio"
@@ -91,7 +92,7 @@
             class="form-control"
           />
         </div>
-        <div class="form-group">
+        <div class="form-group d-flex mb-5">
           <label for="checkbox" class="lable">Checkbox 1</label>
           <input
             type="checkbox"
@@ -123,7 +124,12 @@
           >
           <textarea name="textarea" id="" cols="30" rows="10"></textarea>
         </div>
-        <button type="submit" class="btn btn-lg btn-success">Submit</button>
+        <div class="text-center"><button
+          type="submit"
+          class="btn btn-lg btn-success"
+          id="submit">
+          Submit</button
+        ><div>
       </form>
     </div>
   </body>
