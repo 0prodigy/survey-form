@@ -36,7 +36,7 @@ Just fork it and you are good to go.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/0prodigy/tribute-page/issues).
+Feel free to check the [issues page](https://github.com/0prodigy/surver-form/issues).
 
 ## Show your support
 
